@@ -1,0 +1,12 @@
+resolver: lts-22.39
+
+packages:
+- .
+
+extra-deps: []
+
+system-ghc: false
+allow-newer: true
+
+ghc-options:
+  "$everything": -O2
